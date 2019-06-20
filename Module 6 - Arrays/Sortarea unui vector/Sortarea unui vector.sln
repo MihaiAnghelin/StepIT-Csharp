@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sortarea unui vector", "Sortarea unui vector\Sortarea unui vector.csproj", "{492628E4-0CAB-4214-90F1-81215017BAD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{492628E4-0CAB-4214-90F1-81215017BAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492628E4-0CAB-4214-90F1-81215017BAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492628E4-0CAB-4214-90F1-81215017BAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492628E4-0CAB-4214-90F1-81215017BAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

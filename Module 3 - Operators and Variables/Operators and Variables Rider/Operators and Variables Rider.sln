@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators and Variables", "Operators and Variables\Operators and Variables.csproj", "{17985C5E-7C15-4ECE-B1FD-ABD8A5ECB7CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17985C5E-7C15-4ECE-B1FD-ABD8A5ECB7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17985C5E-7C15-4ECE-B1FD-ABD8A5ECB7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17985C5E-7C15-4ECE-B1FD-ABD8A5ECB7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17985C5E-7C15-4ECE-B1FD-ABD8A5ECB7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
