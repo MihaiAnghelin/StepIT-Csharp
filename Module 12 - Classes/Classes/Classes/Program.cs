@@ -31,7 +31,7 @@ namespace Constructors_and_destructors
 
     sealed class BankAccount : IDisposable
     {
-        
+
         #region Variables
 
         private long accNumber;
@@ -79,7 +79,7 @@ namespace Constructors_and_destructors
         ~BankAccount()
         {
             Dispose();
-        } 
+        }
         #endregion
 
         #region Getters
@@ -118,7 +118,7 @@ namespace Constructors_and_destructors
             fout.WriteLine("Numar de cont " + accNumber + ", sold " + balance + ", tipul contului: " + accType + ", coada de tranzactii: ");
             foreach (BankTransaction tran in this.GetTransaction())
             {
-                Console.WriteLine("Data / Ora: {0}\tSuma: {1}", tran.GetDate(), tran.GetAmount());
+                fout.WriteLine("Data / Ora: {0}\tSuma: {1}", tran.GetDate(), tran.GetAmount());
             }
             fout.Close();
             disposed = true;
@@ -211,13 +211,13 @@ namespace Constructors_and_destructors
     {
         static void Main()
         {
-        //    BankAccount account1 = new BankAccount();
-        //    BankAccount account2 = new BankAccount(AccountType.Depozit);
-        //    BankAccount account3 = new BankAccount(100);
-        //    BankAccount account4 = new BankAccount(AccountType.Depozit, 500);
+            //    BankAccount account1 = new BankAccount();
+            //    BankAccount account2 = new BankAccount(AccountType.Depozit);
+            //    BankAccount account3 = new BankAccount(100);
+            //    BankAccount account4 = new BankAccount(AccountType.Depozit, 500);
 
 
-        //    BankAccount.Write(account1);
+            //    BankAccount.Write(account1);
             //BankAccount.Write(account2);
             //BankAccount.Write(account3);
             //BankAccount.Write(account4);
